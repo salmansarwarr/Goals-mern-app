@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = '/api/goals/';
+const API_URL = 'https://kind-erin-harp-seal-belt.cyclic.app/api/goals/';
 
 // Crate new goal
 const createGoal = async (goalData, token) => {
